@@ -1,0 +1,8 @@
+"state_code","state_name","zero_dose_percentage","zero_dose_se_percentage","total_children_sampled","actual_zero_dose_cases"
+"Jigawa","Jigawa",34.19,4.53,203,74
+"Kaduna","Kaduna",45.32,5.33,213,98
+"Kano","Kano",42.84,4.38,253,111
+"Katsina","Katsina",39.92,4.69,194,78
+"Kebbi","Kebbi",83.9,2.72,216,174
+"Sokoto","Sokoto",86.4,3.54,202,174
+"Zamfara","Zamfara",83.49,3.53,141,115

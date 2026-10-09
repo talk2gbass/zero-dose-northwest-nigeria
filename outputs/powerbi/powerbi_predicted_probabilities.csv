@@ -1,0 +1,17 @@
+"maternal_education","wealth_index","is_rural","distance_barrier","facility_delivery","received_anc","is_female","PersonaName","Probability"
+"Higher","Richest","Urban","No Barrier","Clinical Facility","Received ANC","Female","1. Advantaged Baseline
+(Urban, Richest, Higher Education, 
+No Barrier, Received ANC, 
+Facility Delivery)",0.0678317199142795
+"Higher","Poorest","Rural","No Barrier","Clinical Facility","Received ANC","Female","2. Simple Rural Disadvantage
+(Rural, Poorest, Higher Education, 
+No Barrier, Received ANC, 
+Facility Delivery)",0.0939753607423436
+"No Education","Poorest","Rural","No Barrier","Clinical Facility","No ANC","Female","3. Compounded Social Exclusion
+(Rural, Poorest, No Education, 
+No Barrier, Received ANC, 
+Facility Delivery)",0.768534459595005
+"No Education","Poorest","Rural","Barrier","Home/Other","No ANC","Female","4. Triple Jeopardy
+(Rural, Poorest, No Education, 
+Barrier, No ANC, 
+Home/Other)",0.850484636786257

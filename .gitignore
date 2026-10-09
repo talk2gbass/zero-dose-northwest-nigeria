@@ -1,0 +1,19 @@
+# DHS microdata - restricted under DHS Data Use Agreement, must stay private
+data/raw/dhs/
+
+# Derived unit-level data - still restricted under DHS Data Use Agreement
+data/processed/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+"Characteristics","Category","report_label","aOR","Lower","Upper"
+"Maternal Education Level","Primary","Maternal Education: Primary (vs No Edu)",0.795304841845552,0.528645675422486,1.19647208114866
+"Maternal Education Level","Secondary","Maternal Education: Secondary (vs No Edu)",0.481301730357638,0.307021551928169,0.754511708348909
+"Maternal Education Level","Higher","Maternal Education: Higher (vs No Edu)",0.172282157319954,0.0631288807564266,0.470167400010427
+"Household Wealth Quintile","Poorer","Wealth Quintile: Poorer (vs Poorest)",1.03486552810151,0.740195145436039,1.44684367069436
+"Household Wealth Quintile","Middle","Wealth Quintile: Middle (vs Poorest)",1.07339091275916,0.630940357510237,1.82611246511561
+"Household Wealth Quintile","Richer","Wealth Quintile: Richer (vs Poorest)",1.03233994919707,0.571593704208687,1.86448129652442
+"Household Wealth Quintile","Richest","Wealth Quintile: Richest (vs Poorest)",0.611564159879298,0.252508245308719,1.48118221324457
+"Residential Locality","Rural","Rural Locality (vs Urban)",0.871721004816179,0.556994949495637,1.36428079092247
+"Physical Barrier (Distance to Health Facility)","Barrier","Distance to Facility: Barrier (vs No Barrier)",1.31993544140934,0.896964966175241,1.94236077794381
+"Clinical Care at Delivery","Clinical Facility","Clinical Facility Delivery (vs Home/Other)",0.770458123179848,0.514218517214534,1.15438417657402
+"Received Antenatal Care (ANC)","Received ANC","Received ANC (vs No ANC)",0.181324584425385,0.119652757382684,0.274783512191726
+"Gender of Child","Female","Female Child (vs Male)",0.931109207688858,0.70742418274238,1.22552264651475
