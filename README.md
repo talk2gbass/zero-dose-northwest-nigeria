@@ -13,33 +13,33 @@ This analysis uses the Children's Recode file from the **2023-2024 Nigeria DHS**
 **The raw and processed data files are not included in this repository.**
 DHS microdata is subject to its own Data Use Agreement, which prohibits
 redistribution — even in recoded/derived form. Researchers who want to
-reproduce this analysis must request access to the Nigeria 2024-2024 DHS dataset
+reproduce this analysis must request access to the Nigeria 2023-2024 DHS dataset
 directly from The DHS Program and place the children's recode file at
 `data/raw/dhs/NGKR8BFL.dta` before running the pipeline below.
 
 ## Repository Structure
-
+```
 ├── dashboard/
-│ └── zero_dose_nw_dashboard.pbix # Interactive Power BI dashboard
+│   └── zero_dose_nw_dashboard.pbix   # Interactive Power BI dashboard
 ├── data/
-│ ├── raw/
-│ │ ├── boundaries/ # Nigeria admin-1 shapefile (public, included)
-│ │ └── dhs/ # DHS microdata (not included — see above)
-│ └── processed/ # Cleaned analytic file (not included — derived from DHS data)
+│   ├── raw/
+│   │   ├── boundaries/      # Nigeria admin-1 shapefile (public, included)
+│   │   └── dhs/             # DHS microdata (not included — see above)
+│   └── processed/           # Cleaned analytic file (not included — derived from DHS data)
 ├── scripts/
-│ ├── python/
-│ │ └── zero_dose_nw_data_ETL_script.py # Transorms raw DHS data into the clean analytic dataset
-│ └── R/
-│ └── zero_dose_nw_analysis_script.R # Survey-weighted regression, tables, figures
+│   ├── python/
+│   │   └── zero_dose_nw_data_ETL_script.py   # Cleans and transforms raw DHS data into the analytic dataset
+│   └── R/
+│       └── zero_dose_nw_analysis_script.R    # Survey-weighted regression, tables, figures
 ├── outputs/
-│ ├── tables/ # Table 1 (weighted characteristics), Table 2 (regression results)
-│ ├── figures/ # Forest plot, persona predictions, state-level prevalence map
-│ ├── gis/ # State-level zero-dose prevalence data
-│ └── powerbi/ # Exported data feeding the Power BI dashboard
+│   ├── tables/     # Table 1 (weighted characteristics), Table 2 (regression results)
+│   ├── figures/    # Forest plot, persona predictions, state-level prevalence map
+│   ├── gis/        # State-level zero-dose prevalence data
+│   └── powerbi/    # Exported data feeding the Power BI dashboard
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+```
 
 ## Reproducing the Analysis
 
