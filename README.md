@@ -65,6 +65,8 @@ directly from The DHS Program and place the children's recode file at
   type, physical distance to a health facility, place of delivery,
   antenatal care receipt, and child's sex.
 
+- **See METHODOLOGY.md** for the full variable codebook, missing-data rules, and modeling decisions
+
 ## License
 
 Code in this repository is released under the [MIT License](LICENSE).
